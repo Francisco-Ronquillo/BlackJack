@@ -1,0 +1,203 @@
+body {
+    font-family:consolas;
+    background-image:url(../image/fondo-gato-negro-cartas-e-ilustracion-dados-color-negro_357391-1459.avif);
+    background-size: cover;
+    margin: 0;
+    padding: 2px;
+}
+h1{
+    color: #f6f1f1;
+    text-align: center;
+    background-color: #565356;
+    border-radius: 15px;
+     
+}
+.container0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+  
+.btn-neon{
+ font-family: monospace;
+ letter-spacing: 8px;
+ margin: 0;
+ position: relative;
+ text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+ display: inline-block;
+ justify-content: center;
+ align-items:end;
+ background-color: rgb(85, 85, 85);
+ border-radius: 10px;
+ padding: 30px;
+ box-shadow: 0 1px 10px rgba(219, 109, 109, 0.5);
+ font-size: 32px;
+ border: 2px solid white;
+ box-shadow: inset 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(226, 216, 216);
+ text-align: center;
+ color: white;
+ padding: 15px 30px;
+ color: #fffcfc;
+ letter-spacing: 4px;
+ text-decoration: none;
+ font-size: 24px;
+ overflow: hidden;
+ transition: 0.2s;
+}
+.btn-neon:hover{
+  background: #a945c7;
+ box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+ transition-delay: 0.1s;
+}
+h6 {
+    color: #7b1818;
+    text-align: center;
+}
+  
+input {
+    width: 90%;
+     padding: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 2px solid #353535;
+}
+.card {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../image/cartanegraPLAYER3.jpg);
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgb(255, 255, 255);
+    position: relative;
+    display: inline-flex;
+    margin: 20px;
+    text-align: flex;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    transform: translate(-50%,-50%, 0);
+    left: 33%;
+    top: 50%;
+
+}
+
+.card2 {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../image/cartanegraBOT4.jpg);
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgb(255, 255, 255);
+    position: relative;
+    display: inline-flex;
+    margin: 20px;
+    transform-style: preserve-3d;
+    align-items: center; 
+    justify-content: center;
+    font-size: 38px; 
+    transform: translate(-50%,-50%, 0);
+    left: 35%;
+    top: 50%;
+}
+.neonText {
+    color: #ffffff;
+    text-shadow:
+        0 0 7px #0fadc9,
+        0 0 10px #20d1a5,
+        0 0 21px #5e967f,
+        0 0 42px rgb(32, 177, 165),
+        0 0 82px #0fa,
+        0 0 92px rgb(108, 19, 131),
+        0 0 102px rgba(58, 114, 6, 0.5),
+        0 0 151px rgb(231, 147, 20);
+  }
+  body {
+    font-size: 24px;
+    font-family: "Vibur", sans-serif;
+    background-color: #000000;
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+    
+  h1 {
+      font-size: 4.2rem;
+  }
+  
+  .container {
+    margin-top: 10px;
+    
+  }
+  .neon2 {
+    font-family: monospace;
+    letter-spacing: 8px;
+    margin: 0;
+    font-size: 100px;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 1px 10px rgba(219, 109, 109, 0.5);
+    font-size: 32px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: inset 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+#resp{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items:end;
+  font-size: 36px;
+  color: #f6f1f1;
+  background-color: rgb(43, 40, 40);
+  text-shadow: 0 0 5px rgb(235, 55, 175), 0 0 15px rgb(148, 28, 118), 0 0 30px rgb(191, 54, 255);
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: inset 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
+  text-align: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 10px auto;
+  border-radius: 10px;
+
+
+}
+#cart{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items:end;
+  font-size: 36px;
+  color: #f6f1f1;
+  text-shadow: 0 0 5px rgb(235, 55, 175), 0 0 15px rgb(148, 28, 118), 0 0 30px rgb(191, 54, 255);
+  text-align: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
